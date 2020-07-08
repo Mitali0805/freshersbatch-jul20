@@ -7,3 +7,6 @@ this include css labs..
 =======
 CSS Assignments...
 >>>>>>> css-assignments
+
+JS assignment
+this include css lab.
