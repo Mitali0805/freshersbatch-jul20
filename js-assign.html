@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Compound Interest</title>
+    </head>
+    <body>
+        <table border="1">
+        <hr>
+        <p>********Calculate Compound Interest*********</p>
+        <hr>
+    <script type="text/javascript">
+    var p,r,n,A=0,comp=0;
+    p=1000,n=1,r=10;
+
+    A= Math.pow([1+(r/100)],n);
+    comp= [p*A]-p;
+    
+    document.write("Principal"+"    "+"-"+"  "+p+"rs<br>");
+    document.write("Rate of Interest"+"    "+"-"+"  "+r+"%<br>");
+    document.write("Period"+"    "+"-"+"  "+n+"yr<br>");
+    document.write("Comp Interest"+"    "+"-"+"  "+comp);
+    
+    </script>
+    </table>
+    </body>
+</html>
